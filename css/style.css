@@ -4,6 +4,32 @@ body {
 #title {
     font-size: 25px;
 }
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: green;
+    padding: 20px;
+}
+#welcome {
+    margin:auto;
+    font-size: 40px;
+    width: 80%;
+}
+#welcomeart {
+    margin:auto;
+    width: 80%;
+    display:block;
+    padding:20px;
+}
+.maincontent {
+   margin-top: 50px;
+}
+#searchbar {
+    width: 80%;
+    background: white;
+    margin: auto;
+}
 #recipegrid {
     background: #fff9f0;
     display: flex;
