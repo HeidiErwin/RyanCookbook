@@ -14,15 +14,14 @@
     <div id="welcome">
         WELCOME <br>
         <a href="#maincontent">Let's Get Started</a> <br>
-        <button onclick="toggleAddManually()">Add Manually</button><br>
-        <a href="#maincontent">Add Via Link</a>
+        <button onclick="toggleAdd()">Add</button><br>
         <img id="welcomeart" src="img/welcomeGraphic.png" alt="Cute cutting board with brown grocery bag.">
     </div>
 
-    <div id="addmanuallymenu">
-        Add Manually Menu
+    <div id="addmenu">
+        Add Manually / Add Via Link
         <br><br>
-        <button onclick="toggleAddManually()">Hide</button><br>
+        <button onclick="toggleAdd()">Close</button><br>
     </div>
 
     <div id="maincontent">
@@ -64,8 +63,8 @@
     </div>
 
     <script>
-        function toggleAddManually() {
-          var x = document.getElementById("addmanuallymenu");
+        function toggleAdd() {
+          var x = document.getElementById("addmenu");
           if (x.style.display === "none") {
             x.style.display = "block";
           } else {
