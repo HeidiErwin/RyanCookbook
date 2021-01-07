@@ -13,9 +13,18 @@
 <body>    
     <div id="welcome">
         WELCOME <br>
-        <a href="#maincontent">Let's Get Started</a>
+        <a href="#maincontent">Let's Get Started</a> <br>
+        <button onclick="toggleAddManually()">Add Manually</button><br>
+        <a href="#maincontent">Add Via Link</a>
         <img id="welcomeart" src="img/welcomeGraphic.png" alt="Cute cutting board with brown grocery bag.">
     </div>
+
+    <div id="addmanuallymenu">
+        Add Manually Menu
+        <br><br>
+        <button onclick="toggleAddManually()">Hide</button><br>
+    </div>
+
     <div id="maincontent">
         <div id="searchbar">
             <div id="searchtext">
@@ -51,15 +60,20 @@
             <div class="recipecard">
                 Recipe Card 9
             </div>
-            <div class="recipecard">
-                Recipe Card 10
-            </div>
-            <div class="recipecard">
-                Recipe Card 11
-            </div>
         </div>
     </div>
 
+    <script>
+        function toggleAddManually() {
+          var x = document.getElementById("addmanuallymenu");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
+    
 </body>
 
 </html>

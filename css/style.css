@@ -1,5 +1,5 @@
 body {
-    background: #eccca2;
+    background: #c76c4e;
 }
 #title {
     font-size: 25px;
@@ -32,6 +32,19 @@ body {
 }
 #searchtext {
    padding: 20px;
+}
+#addmanuallymenu {
+    font-size: 20px;
+    background: #fff9f0;
+    display: none;
+    padding: 20px;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 #recipegrid {
     background: #fff9f0;
