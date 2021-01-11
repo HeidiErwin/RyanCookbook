@@ -1,12 +1,14 @@
 body {
     background: #e06e5e;
     font-family: 'Fraunces', serif;
+    margin: 0;
 }
 #title {
     font-size: 25px;
 }
 #headerfooter {
     width: 100%;
+    margin:auto;
     padding: 0px !important;
 }
 #welcome {
