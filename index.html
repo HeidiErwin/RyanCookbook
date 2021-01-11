@@ -3,20 +3,21 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- Header Start -->
 <div class="bg">
     <div id="welcome">
-        Welcome Name! <br>
-        <a href="#maincontent">Let's Get Started</a> <br>
-        <button class="button" onclick="toggleAdd()">Add</button><br>
+        Welcome Name, <br>
+        <a href="#maincontent">Let's cook! </a> <br>
         <img id="welcomeart" src="img/bag.png" alt="Cute cutting board with brown grocery bag.">
     </div>
 </div>
+<!-- Header End -->
 
-
-
+<!-- Content Start -->
 <div id="addmenu">
     Add Manually / Add Via Link
     <br><br>
@@ -29,6 +30,8 @@
             Search...
         </div>
     </div>
+
+    <button class="button" onclick="toggleAdd()">Add</button><br>
 
     <div id="recipegrid">
         <div class="recipecard">
@@ -60,6 +63,10 @@
         </div>
     </div>
 </div>
+<!-- Content End -->
+
+<!-- Footer Start -->
+<!-- Footer End -->
 
 <script>
     function toggleAdd() {
