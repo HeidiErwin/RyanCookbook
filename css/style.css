@@ -1,22 +1,17 @@
 body {
     background: #e06e5e;
     font-family: 'Fraunces', serif;
-    font-color:
 }
 #title {
     font-size: 25px;
 }
-#navbar {
-    position: fixed;
-    top: 0;
+#headerfooter {
     width: 100%;
-    background: green;
-    padding: 20px;
+    padding: 0px !important;
 }
 #welcome {
     margin:auto;
     font-size: 40px;
-    width: 80%;
 }
 #welcomeart {
     margin: auto auto 50px auto;
