@@ -85,8 +85,16 @@ body {
     font-family: 'Fraunces', serif;
 }
 
-.bg {
+.head {
     background-image: url("../img/head.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot {
+    background-image: url("../img/foot.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +129,9 @@ body {
 }
 
 .button {
-    font-size: 20px;
+    font-size: 60px;
+    background-color: #ebe0c3;
+    border: none;
 }
 
 #recipegrid {
