@@ -93,14 +93,6 @@ body {
     background-size: cover;
 }
 
-.foot {
-    background-image: url("../img/foot.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #welcome {
     margin: auto;
     font-size: 80px;
@@ -113,7 +105,6 @@ body {
     margin: auto 0px auto auto;
     width: 60%;
     display:block;
-    padding:20px;
 }
 
 #title {
@@ -169,6 +160,32 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.foot {
+    background-image: url("../img/foot.png");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#goodbye {
+    font-size: 30px;
+    color: black;
+    margin: auto;
+    width: 60%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#goodbyeart {
+    margin: auto auto 0px 0px;
+    width: 20%;
+    display:block;
 }
 
 /* MOBILE */
