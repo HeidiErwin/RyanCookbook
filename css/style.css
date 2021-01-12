@@ -115,16 +115,27 @@ body {
 
 #searchbar {
     background: var(--beige);
+    width:84%;
 }
 
-#searchtext {
-   padding: 20px;
+#searchbutton {
+   font-size: 22px;
 }
 
 .button {
-    font-size: 60px;
+    font-size: 22px;
     background-color: var(--beige);
     border: none;
+    font-family: 'Fraunces', serif;
+}
+
+#addbutton {
+    font-size: 22px;
+    background-color: var(--beige);
+    border: none;
+    font-family: 'Fraunces', serif;
+    width:15%;
+    text-align: center;
 }
 
 #recipegrid {
@@ -141,6 +152,18 @@ body {
 #maincontent {
     width:60%;
     margin: auto;
+}
+
+#searchaddbar {
+    /* display: grid;
+    height: 50%;
+    grid-template-columns: 1fr .1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .recipecard {
@@ -166,20 +189,20 @@ body {
 
 .foot {
     background-image: url("../img/foot.png");
-    height: 100%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -20%;
-    z-index: -1;
 }
 
 #goodbye {
+    box-sizing: border-box;
     font-size: 30px;
     color: black;
     margin: auto;
+    height: 100%;
     width: 60%;
-    padding-top: 8%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -210,5 +233,15 @@ body {
     }
     #searchbar {
       margin-top: 5%;
+    }
+    #goodbyeart {
+        margin: auto auto 10% auto;
+        width: 60%;
+    }
+    #goodbye {
+        flex-direction: column;
+        font-size:22px;
+        justify-content: flex-start;
+        align-items: center;
     }
 }
