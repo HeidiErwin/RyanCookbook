@@ -67,7 +67,7 @@ table {
 }
 
 ::selection {
-  background: #ebe0c3;
+  background: var(--beige);
 }
 */
 
@@ -81,7 +81,9 @@ body, html {
 }
 
 body {
-    background: #e06e5e;
+    --red: #e06e5e;
+    --beige: #ebe0c3;
+    background: var(--red);
     font-family: 'Fraunces', serif;
 }
 
@@ -96,7 +98,7 @@ body {
 #welcome {
     margin: auto;
     font-size: 80px;
-    color: #e06e5e;
+    color: var(--red);
     width: 60%;
     padding-top: 8%;
 }
@@ -112,7 +114,7 @@ body {
 }
 
 #searchbar {
-    background: #ebe0c3;
+    background: var(--beige);
 }
 
 #searchtext {
@@ -121,12 +123,12 @@ body {
 
 .button {
     font-size: 60px;
-    background-color: #ebe0c3;
+    background-color: var(--beige);
     border: none;
 }
 
 #recipegrid {
-    background: #ebe0c3;
+    background: var(--beige);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -150,7 +152,7 @@ body {
 
 #addmenu {
     font-size: 20px;
-    background: #ebe0c3;
+    background: var(--beige);
     display: none;
     padding: 20px;
     width: 50%;
