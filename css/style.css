@@ -157,6 +157,13 @@ body {
     justify-content: center;
 }
 
+#recipe {
+  width:100%;
+  background-color: var(--beige);
+  height: 500px;
+  margin-top:5%;
+}
+
 #maincontent {
     width:60%;
     margin: auto;
@@ -246,7 +253,7 @@ body {
 #goodbyeart {
     margin: auto auto 0px 0px;
     width: 20%;
-    display:block;
+    display: block;
 }
 
 /* MOBILE */
