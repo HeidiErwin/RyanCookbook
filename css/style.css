@@ -83,9 +83,12 @@ body, html {
 body {
     --red: #e06e5e;
     --beige: #ebe0c3;
+    --green: #bfdb63;
+    --brown: #736445;
     background: var(--red);
     font-family: 'Fraunces', serif;
-}
+    color: var(--brown);
+  }
 
 .head {
     background-image: url("../img/head.png");
@@ -98,7 +101,7 @@ body {
 #welcome {
     margin: auto;
     font-size: 80px;
-    color: var(--red);
+    color: var(--brown);
     width: 60%;
     padding-top: 8%;
 }
@@ -107,6 +110,10 @@ body {
     margin: auto 0px auto auto;
     width: 60%;
     display:block;
+}
+
+#welcome a {
+  color: var(--red);
 }
 
 #title {
@@ -127,6 +134,7 @@ body {
     background-color: var(--beige);
     border: none;
     font-family: 'Fraunces', serif;
+    color: var(--brown);
 }
 
 #addbutton {
@@ -198,7 +206,7 @@ body {
 #goodbye {
     box-sizing: border-box;
     font-size: 30px;
-    color: black;
+    color: var(--brown);
     margin: auto;
     height: 100%;
     width: 60%;
