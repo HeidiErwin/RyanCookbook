@@ -251,8 +251,11 @@ body {
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
+    .head {
+      height: 65%;
+    }
     #welcome {
-        font-size: 40px;
+        font-size: 50px;
         width: 80%;
     }
     #welcomeart {
