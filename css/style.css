@@ -75,6 +75,10 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -125,29 +129,24 @@ body {
 }
 
 #searchbar {
-    background: var(--beige);
-    width:84%;
-}
-
-#searchbutton {
-   font-size: 22px;
+  background: var(--beige);
+  width:84%;
+  border-radius: 8px;
 }
 
 .button {
-    font-size: 22px;
-    background-color: var(--beige);
-    border: none;
-    font-family: var(--title-font);
-    color: var(--brown);
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  font-family: var(--title-font);
+  color: var(--brown);
 }
 
 #addbutton {
-    font-size: 22px;
-    background-color: var(--beige);
-    border: none;
-    font-family: var(--title-font);
-    width:15%;
-    text-align: center;
+  background-color: var(--beige);
+  width:15%;
+  text-align: center;
+  border-radius: 8px;
 }
 
 #cardgrid {
@@ -159,6 +158,7 @@ body {
     margin-bottom: 1%;
     padding: 20px;
     justify-content: center;
+    border-radius: 8px;
 }
 
 #recipesummary {
@@ -170,6 +170,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 
 #recipetitle {
@@ -191,6 +192,7 @@ body {
 
 #instructions {
   margin-top:3%;
+  margin-bottom:3%;
   width:100%;
   background-color: var(--beige);
   height: auto;
@@ -312,11 +314,11 @@ body {
 }
 
 .arrow-left:hover {
-  width: 0; 
-  height: 0; 
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent; 
   border-right: 30px solid var(--brown); 
+}
+
+.shadow {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* MOBILE *
